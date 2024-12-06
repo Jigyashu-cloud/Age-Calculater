@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5c8848a64c.js" crossorigin="anonymous"></script>
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="head">
+        <div class="empty"></div>
+        <div class="line"></div>
+        <p>Age Calculator</p>
+    </div>
+    <div class="content">
+        <input type="date"  id="birthday" name="2024-02-12"  placeholder="Birth Date (YYYY/MM/DD)" required/>
+        <button onclick="calculate()">Calculate </button><br/>
+    </div>
+
+    <!-- <div class="dateClass" hidden>
+        
+    </div> -->
+    
+    <i class="fa-solid fa-user" ></i>
+    <p id="date"></p>
+
+    <div class="Result" >
+        <span>&rpar;</span>
+        <span>&rpar;</span>
+        <span>&rpar;</span>
+        <span>&rpar;</span>
+        <span>&rpar;</span>
+        <div class="cir"></div>
+        <div class="cir"></div>
+        <div class="cir"></div>
+        <div class="cir"></div>
+        <div class="cir"></div>
+        
+        
+        <div class="year">
+            <p>Year</p>
+            <p id="year">21</p>
+        </div>
+        <div class="month">
+            <p>Month</p>
+            <p id="month">9</p>
+        </div>
+        <div class="day">
+            <p>Day</p>
+            <p id="day">18</p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
